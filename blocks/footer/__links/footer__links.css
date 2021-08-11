@@ -1,0 +1,15 @@
+.footer__links {
+  width: 17.83%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white;
+  display: flex;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__links {
+    flex-direction: column;
+    width: 15.83%;
+  }
+}

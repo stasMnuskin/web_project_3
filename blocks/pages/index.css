@@ -20,10 +20,10 @@
 @import url(../intro/__main-text/intro__main-text.css);
 @import url(../intro/__list/intro__list.css);
 @import url(../intro/__list-item/intro__list-item.css);
-@import url(../intro/__list-item/_span-accent/intro__list-item_span-accent.css);
+@import url(../intro/__span-accent/intro__span-accent.css);
 @import url(../intro/__text/intro__text.css);
-@import url(../grid/__wrapper/grid__wrapper.css);
-@import url(../grid-item/grid-item.css);
+@import url(../grid/grid.css);
+@import url(../grid/__item/grid__item.css);
 @import url(../places/places.css);
 @import url(../place/place.css);
 @import url(../place/__title/place__title.css);

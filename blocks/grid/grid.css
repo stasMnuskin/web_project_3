@@ -1,4 +1,4 @@
-.grid__wrapper {
+.grid {
   max-width: 100%;
   margin: auto;
   margin-top: 0;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .grid__wrapper {
+  .grid {
     max-width: 928px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     row-gap: 14px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 860px) {
-  .grid__wrapper {
+  .grid {
     max-width: 720px;
     grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
     row-gap: 16px;
@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .grid__wrapper {
+  .grid {
     max-width: 288px;
     grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
     row-gap: 16px;

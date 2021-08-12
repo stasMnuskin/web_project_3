@@ -1,0 +1,18 @@
+.cover__description {
+  max-width: 320px;
+  margin: 0 auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+  .cover__description {
+    font-size: 14px;
+    line-height: 1.14;
+  } 
+}

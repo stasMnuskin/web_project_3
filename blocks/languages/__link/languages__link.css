@@ -1,16 +1,13 @@
 .languages__link {
-  margin-right: 18px;
-  font-size: 24px;
   text-decoration: none;
-}
-
-.languages__link:last-of-type {
-  margin-right: 0;
+  font-size: 24px;
+  line-height: 1.17;
 }
 
 @media screen and (max-width: 425px) {
   .languages__link {
     font-size: 18px;
+    line-height: 1.11;
     margin-right: 16px;
   }
 }

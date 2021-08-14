@@ -1,5 +1,6 @@
 .lead {
-  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  margin: 58px auto 0;
   max-width: calc(100% - 100px * 2); 
 }  
 

@@ -1,2 +1,6 @@
-@import url(./__link/languages__link.css);
-@import url(./__link/_active/languages__link_active.css);
+.languages {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}

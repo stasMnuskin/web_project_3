@@ -1,13 +1,13 @@
 .footer {
+  font-family: 'Inter', sans-serif;
   margin: 92px auto 24px;
   display: flex;
-  width: 100%;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 425px) {
   .footer {
-    display: block;
-    margin: 64px auto 24px;
+    flex-direction: column;
+    margin: 64px 43.4% 24px 5%;
   }
 }

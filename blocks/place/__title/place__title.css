@@ -1,4 +1,5 @@
 .place__title {
+  align-self: end;
   grid-area: title;
   font-weight: 900;
   font-size: 72px;
@@ -19,5 +20,7 @@
     font-size: 32px;
     line-height: 1.09;
     margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
   } 
 }

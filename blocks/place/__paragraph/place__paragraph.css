@@ -1,15 +1,15 @@
 .place__paragraph {
+  margin: 0 0 25px;
   grid-area: content;
   list-style: none;
   line-height: 1.63;
-  font-family: 'Inter';
   font-size: 18px;
   font-weight: 400;
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 425px) {
   .place__paragraph {
     font-size: 16px;
-  } 
+  }
 }

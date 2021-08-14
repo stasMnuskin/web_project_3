@@ -17,6 +17,9 @@ This is a project about traveling across the US. I've made it so all the element
 It has 8 almost unique sections!
 more to that, it is well structured according to BEM principles. 
 
+## Github link:
+https://github.com/stasMnuskin/web_project_3.git
+
 ## Installation
 You don`t need to install this project.
 

@@ -1,7 +1,15 @@
 .place__website {
+  align-self: end;
   display: flex;
   flex-direction: column;
   grid-area: url;
   list-style: none;
   justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    margin: 0 5% 30px;
+  }
 }

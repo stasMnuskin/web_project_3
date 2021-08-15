@@ -6,7 +6,11 @@
   grid-template-areas: "title url" "image content";
   list-style: none;
   grid-gap: 48px 40px;
-  margin-bottom: 80px;
+  margin-bottom: 81px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1150px) {
@@ -14,6 +18,7 @@
     max-width: 928px;
     grid-template-columns: 47.4% 49.15%;
     grid-gap: 48px 32px;
+    margin-bottom: 80px;
   } 
 }
 
@@ -22,6 +27,8 @@
     max-width: 720px;
     grid-template-columns: 47.25% 48.9%;
     grid-gap: 48px 28px;
+    margin-bottom: 73px;
+
   } 
 }
 
@@ -29,5 +36,6 @@
   .place {
     max-width: 320px;
     display: block;
+    margin-bottom: 64px;
   } 
 }

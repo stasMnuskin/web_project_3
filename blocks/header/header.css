@@ -1,8 +1,21 @@
 .header {
+  margin: 0 10.815% 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   min-height: 82px;
+}
+
+@media screen and (max-width: 1150px) {
+  .header {
+    margin: 0 4.7% 0;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .header {
+    margin: 0 3.13% 0;
+  }
 }
 
 @media screen and (max-width: 425px) {

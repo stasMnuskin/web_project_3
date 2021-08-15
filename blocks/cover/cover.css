@@ -1,21 +1,33 @@
-.cover {
-  height: 740px;
-}
-
-@media screen and (max-width: 1150px) {
   .cover {
-    height: 640px;
+    background-image: url(../images/cover-route-66.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 92px auto 0;
+    padding-bottom: 24.9%;
+    padding-top: 24.9%;
   }
-}
+
+  @media screen and (max-width: 1150px) {
+    .cover {
+      padding-bottom: 23.9%;
+      padding-top: 23.9%;
+      margin: 92px 0 0;
+    }  
+  }
 
 @media screen and (max-width: 860px) {
   .cover {
-    height: 480px;
-  }
+    padding-bottom: 21.5%;
+    padding-top: 21.5%;
+    margin: 89px 0 0;
+  }  
 }
+
 
 @media screen and (max-width: 425px) {
   .cover {
-    height: 200px;
-  }
+    padding-bottom: 18.5%;
+    padding-top: 18.5%;
+    margin: 64px 0 0;
+  }  
 }

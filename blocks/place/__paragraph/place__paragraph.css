@@ -1,5 +1,6 @@
 .place__paragraph {
-  font-family: 'Inter-Regular', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   margin: 0 0 25px;
   grid-area: content;
   list-style: none;
@@ -8,7 +9,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 860px) {
   .place__paragraph {
     font-size: 16px;
   }

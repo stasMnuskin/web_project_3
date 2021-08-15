@@ -1,5 +1,6 @@
 .place__website-link {
-  font-family: 'Inter-Regular', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   color:#FFFFFF;
   text-decoration: none;
   font-size: 18px;

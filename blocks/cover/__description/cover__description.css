@@ -1,5 +1,6 @@
 .cover__description {
-  font-family: 'Inter-Regular', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   max-width: 320px;
   margin: 0 auto;
   font-style: normal;
@@ -7,6 +8,7 @@
   line-height: 1.22;
   text-align: center;
   color: #FFFFFF;
+  z-index: 1;
 }
 
 @media screen and (max-width: 425px) {

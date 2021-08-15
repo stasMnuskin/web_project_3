@@ -1,5 +1,6 @@
 .place__title {
-  font-family: 'Inter-Black', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
   align-self: end;
   grid-area: title;
   font-size: 72px;
@@ -19,8 +20,6 @@
   .place__title {
     font-size: 32px;
     line-height: 1.09;
-    margin-bottom: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5% 30px;
   } 
 }

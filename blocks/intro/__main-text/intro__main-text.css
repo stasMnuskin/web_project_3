@@ -1,5 +1,6 @@
 .intro__main-text {
-  font-family: 'Inter-Regular', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   margin: 0 0 33px;
   min-width: 100%;
   font-style: normal;

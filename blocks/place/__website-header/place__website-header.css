@@ -16,7 +16,6 @@
 
 @media screen and (max-width: 425px) {
   .place__website-header {
-    margin-top: 30px;
     margin-bottom: 12px;
   } 
 }

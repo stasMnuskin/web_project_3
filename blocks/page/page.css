@@ -1,15 +1,15 @@
 .page {
+  margin: 0 auto;
   background-color: #2A2C2F;
 }
 
-@media screen and (max-width: 1150px) {
+/* @media screen and (max-width: 1150px) {
   .page {
-    margin: 0;
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 425px) {
   .page {
-    margin: 0;
+    margin: 0 auto;
   }
-}
+} */

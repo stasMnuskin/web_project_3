@@ -6,20 +6,13 @@
 
 @media screen and (max-width: 1150px) {
   .page__wrapper  {
-    margin: 0;
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 860px) {
-  .page__wrapper  {
+    margin: 0 auto;
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 425px) {
   .page__wrapper  {
-    margin: 0;
     min-width: 320px;
   }
 }

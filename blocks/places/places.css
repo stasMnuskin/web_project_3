@@ -6,22 +6,25 @@
   flex-direction: column;
   margin: 92px auto 0;
 }
-
+ 
 @media screen and (max-width: 1150px) {
   .places {
-    max-width: 928px;
+    max-width: 89.85%;
+    margin: 92px 4.7% 0;
+
   } 
 }
 
 @media screen and (max-width: 860px) {
   .places {
-    max-width: 720px;
+    margin: 92px 3.15% 0;
+    max-width: 93.75%;
   } 
-}
+} 
 
 @media screen and (max-width: 425px) {
   .places {
-    margin: 64px auto 0;
-    max-width: 720px;
+    margin: 64px 0 0;
+    max-width: 100%;
   } 
 }

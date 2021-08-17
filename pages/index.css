@@ -22,7 +22,7 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
-@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list-text/intro__list-text.css);
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/grid/__item/grid__item.css);
 @import url(../blocks/places/places.css);

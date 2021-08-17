@@ -1,8 +1,11 @@
 .languages__link_active {
   text-decoration: underline;
   cursor: default;
+  transition: ease 0.5s;
 }
 
 .languages__link_active:hover {
   opacity: 1;
 }
+
+  

@@ -1,14 +1,4 @@
 .place__content {
+  grid-area: text;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-}
-
-
-@media screen and (max-width: 425px) {
-  .place__content {
-    margin: 32px 5% 0;
-  }  
 }

@@ -1,7 +1,10 @@
 .place__img {
   grid-area: image;
-  object-fit: cover;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+  .place__img {
+    margin: 0 auto 32px;
+  }
 }

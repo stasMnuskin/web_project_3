@@ -1,0 +1,26 @@
+.places__section {
+  display: flex;
+  flex-direction: column;
+  max-width: 83.10%;
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1150px) {
+  .places__section {
+    max-width: calc( 100% - 96px);
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .places__section {
+    max-width: calc(100% - 48px);
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .places__section {
+    max-width: 100%;
+    margin: 64px 0 0;
+  }
+}

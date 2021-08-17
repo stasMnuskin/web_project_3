@@ -1,13 +1,8 @@
 .languages__item {
-  margin-right: 18px;
+  padding: 0;
+  margin: 0 0 0 18px;
 }
 
 .languages__item:last-of-type {
   margin-right: 0;
-}
-
-@media screen and (max-width: 425px) {
-  .languages__item {
-    margin-right: 200px;
-  }
 }
